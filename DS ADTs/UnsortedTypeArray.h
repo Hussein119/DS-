@@ -1,21 +1,26 @@
 #pragma once
-const int MAX_ITEMS = 5;
+class NotFound {};
+class Fulllist {};
+class Emptylist {};
 template<class ItemType>
-class UnsortedTypeArray
+class UnSortedTypeArray
 {
 public:
-	UnsortedTypeArray();
+	UnSortedTypeArray();
+	UnSortedTypeArray(int size);
 	bool IsFull() const;
+	bool IsEmpty() const;
 	int LengthIs() const;
-	void RetrieveItem(ItemType& item, bool& found);
+	bool IsFound(ItemType item) const;
 	void InsertItem(ItemType item);
 	void DeleteItem(ItemType item);
 	void ResetList();
 	void GetNextItem(ItemType& item);
 private:
 	int length;
-	ItemType info[MAX_ITEMS];
+	ItemType* info;
 	int currentPos;
+	int MAX_ITEMS;
 };
 
 
