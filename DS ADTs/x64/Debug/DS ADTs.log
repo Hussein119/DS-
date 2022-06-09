@@ -1,3 +1,7 @@
-﻿  UnsortedTypeArray.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-D:\SW Engineering\DS ADTs\x64\Debug\DS ADTs.exe : fatal error LNK1120: 1 unresolved externals
+﻿  TreeType.cpp
+D:\SW Engineering\DS ADTs\DS ADTs\TreeType.h(11,1): error C2955: 'TreeNode': use of class template requires template argument list
+D:\SW Engineering\DS ADTs\DS ADTs\TreeNode.h(4): message : see declaration of 'TreeNode'
+D:\SW Engineering\DS ADTs\DS ADTs\TreeType.h(190): message : see reference to class template instantiation 'TreeType<ItemType>' being compiled
+D:\SW Engineering\DS ADTs\DS ADTs\TreeType.h(190,1): error C2512: 'TreeNode': no appropriate default constructor available
+D:\SW Engineering\DS ADTs\DS ADTs\TreeType.h(148,4): error C3861: 'cout': identifier not found
+D:\SW Engineering\DS ADTs\DS ADTs\TreeType.cpp(20,1): error C2512: 'TreeNode': no appropriate default constructor available

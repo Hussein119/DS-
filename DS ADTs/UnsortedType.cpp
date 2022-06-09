@@ -2,7 +2,7 @@
 #include"UnsortedType.h"
 #include"NodeType.h"
 #include<iostream>
-template <class ItemType>
+template <typename ItemType>
 UnsortedType<ItemType>::UnsortedType() // Class constructor.
 {
 	length = 0;

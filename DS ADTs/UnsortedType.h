@@ -1,6 +1,6 @@
 #pragma once
 #include"NodeType.h"
-template <class ItemType>
+template <typename  ItemType>
 class UnsortedType
 {
 public:

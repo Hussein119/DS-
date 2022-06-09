@@ -146,6 +146,8 @@
     <ClInclude Include="SortedTypeArray.h" />
     <ClInclude Include="StackType.h" />
     <ClInclude Include="StackTypeArray.h" />
+    <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="TreeType.h" />
     <ClInclude Include="UnsortedType.h" />
     <ClInclude Include="UnsortedTypeArray.h" />
   </ItemGroup>
@@ -156,6 +158,8 @@
     <ClCompile Include="SortedTypeArray.cpp" />
     <ClCompile Include="StackType.cpp" />
     <ClCompile Include="StackTypeArray.cpp" />
+    <ClCompile Include="Test Program.cpp" />
+    <ClCompile Include="TreeType.cpp" />
     <ClCompile Include="UnsortedType.cpp" />
     <ClCompile Include="UnsortedTypeArray.cpp" />
   </ItemGroup>

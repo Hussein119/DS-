@@ -16,57 +16,69 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NodeType.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UnsortedType.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SortedType.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StackType.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StackTypeArray.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QueuesTypeArray.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QueuesType.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UnsortedTypeArray.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="QueuesTypeArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedType.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SortedTypeArray.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackTypeArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsortedTypeArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeType.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UnsortedType.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SortedType.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StackType.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StackTypeArray.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QueuesTypeArray.cpp">
+    <ClCompile Include="Test Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="QueuesType.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="UnsortedTypeArray.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="QueuesTypeArray.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedType.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="SortedTypeArray.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackType.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackTypeArray.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsortedType.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsortedTypeArray.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeType.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
